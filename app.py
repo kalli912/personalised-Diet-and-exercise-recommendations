@@ -375,8 +375,6 @@ def main():
                         st.metric("Activity", rec['activity'])
                     with col2:
                         st.metric("Calories Burned", f"{rec['calories_burned']:.1f} kcal/min")
-                    with col3:
-                        st.metric("Duration", f"{rec['duration']:.0f} min")
             
             st.markdown('<div class="thin-separator">', unsafe_allow_html=True)
             st.subheader("Exercise Tips")
